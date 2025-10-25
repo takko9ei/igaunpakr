@@ -1,0 +1,13 @@
+.idea/
+.venv/
+nuitka_dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+*.log
