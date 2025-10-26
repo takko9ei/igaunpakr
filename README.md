@@ -24,6 +24,8 @@
 
 **再次强调：** 本项目所解密之文件只能用于分析兼容性问题、理解加密算法等学习用途。请在分析完毕后尽快删除，且**切勿向网络上传播任何解密后的文件**。
 
+本项目使用 Nuitka 打包，在运行时有小概率被 Windows Defender 误报，请添加过滤规则，或者在自己的 Python 环境中运行本项目。
+
 ---
 
 ## English
@@ -49,3 +51,5 @@ Special thanks to the original author, RikuKH3.
 To use the program, drag and drop the target file (`.iga` format) onto the program's entry point (the `.py` file if running in a Python environment, or the `.exe` file if using the packaged executable).
 
 **Reiteration:** Files decrypted by this project are to be used only for study purposes, such as analyzing compatibility issues or understanding the encryption algorithm. Please delete all decrypted files immediately after your analysis is complete, and **do not upload any decrypted files to the network.**
+
+This project is packaged using Nuitka and may trigger a false positive from Windows Defender at runtime. Please add an exclusion rule or run the project in your own Python environment.
