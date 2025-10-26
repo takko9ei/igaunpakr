@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Python port of igapack.pas (Innocent Grey Archive Unpacker/Packer)
+Python port of igapack.pas
 Original by RikuKH3.
 
-This script can unpack and pack .iga archive files from Innocent Grey games.
+This script can unpack and pack .iga archive files.
 """
 
 import sys
@@ -113,7 +113,7 @@ def unpack(input_file: str):
         #1. Read and check header
         magic = f.read(4)
         if magic != b'IGA0':
-            print("Error: Input file is not a valid Innocent Grey Archive file.")
+            print("Error: Input file is not a valid iga file.")
             return
 
         #Read the archive ID (e.g., [2])
