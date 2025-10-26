@@ -20,7 +20,21 @@
 
 ### 使用方法
 
-将需要解密的文件（`.iga` 格式）拖拽到本程序的入口文件上（若直接使用 Python 环境运行，则拖拽到 `.py` 文件；若您使用的是打包后的程序，则拖拽到 `.exe` 文件）。
+#### 解包
+
+将需要解密的文件（`.iga` 格式）拖拽到本程序的入口文件上（若直接使用 Python 环境运行，则拖拽到 `.py` 文件；若使用的是打包后的程序，则拖拽到 `.exe` 文件）。
+
+#### 封包
+
+1. 修改（替换）解包出来的文件夹里的文件，注意保持命名。
+2. （关键） 拖动整个文件夹（必须包含 iga_filelist.txt）到 igapack.exe 图标上。
+3. 新的 .iga 文件会生成在文件夹旁边。
+
+**关于 txt 中的数字**
+解包和封包依赖于这行数字。不需要动它，保持解包的原样即可。
+
+**关于 txt 中的文件名和生成的文件夹名**
+若你修改他们（在保持 txt 中的文件名与文件夹中的文件命名相同的情况下），可以正常封包，但是这一封包可能无法在游戏中正常工作。
 
 **再次强调：** 本项目所解密之文件只能用于分析兼容性问题、理解加密算法等学习用途。请在分析完毕后尽快删除，且**切勿向网络上传播任何解密后的文件**。
 
@@ -48,7 +62,21 @@ Special thanks to the original author, RikuKH3.
 
 ### Usage
 
+#### Unpacking
+
 To use the program, drag and drop the target file (`.iga` format) onto the program's entry point (the `.py` file if running in a Python environment, or the `.exe` file if using the packaged executable).
+
+#### Packing
+
+1. Modify (replace) the files inside the unpacked folder. Be sure to keep the filenames unchanged.
+2. (Crucial) Drag the **entire folder** (which must contain `iga_filelist.txt`) onto the `igapack.exe` icon.
+3. A new .iga file will be generated alongside the folder.
+
+**About the number in the .txt file**
+Unpacking and packing rely on this number. Do not modify it; keep it exactly as it was from the unpack.
+
+**About the filenames in the .txt and the actual filenames**
+If you modify them (even if you keep the filenames in the .txt and the actual files in the folder consistent), the tool will pack it successfully, but this new archive will likely not work in the game.
 
 **Reiteration:** Files decrypted by this project are to be used only for study purposes, such as analyzing compatibility issues or understanding the encryption algorithm. Please delete all decrypted files immediately after your analysis is complete, and **do not upload any decrypted files to the network.**
 
