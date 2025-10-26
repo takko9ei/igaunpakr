@@ -4,7 +4,7 @@
 
 ### 免责声明
 
-本项目的开发初衷是为了分析网络上一个具有特定文件格式（`.iga`）的游戏中出现的 bug。该游戏由作者本人购入正版。作者未曾向网络上传输任何解包文件，并在分析完成后立即删除了所有本地解包文件。
+本项目的开发初衷是为了分析网络上一个具有特定文件格式（`.iga`）的游戏中出现的 bug。该游戏由作者本人购入正版。作者未曾向网络上传输任何解包文件，并在分析完成后立即删除了所有本地解包文件。由于本人懒得配置 Pascal 的环境，故实现了此版本的相同工具。
 
 本项目仅作学习和技术研究用途，并遵守相关法律法规。
 
@@ -30,7 +30,7 @@
 
 ### Disclaimer
 
-This project was developed solely to analyze a bug within a legally purchased game that uses a specific file format (`.iga`). The author has not uploaded any unpacked game files to the internet and deleted all local unpacked files immediately after the analysis was complete.
+This project was developed solely to analyze a bug within a legally purchased game that uses a specific file format (`.iga`). The author has not uploaded any unpacked game files to the internet and deleted all local unpacked files immediately after the analysis was complete. The author is too laze to deal with the Pascal environment, so developed this program.
 
 This project is intended for educational and technical research purposes only, in accordanceance with applicable laws and regulations.
 
